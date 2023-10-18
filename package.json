@@ -1,8 +1,13 @@
 {
   "name": "a98db973kwl8",
-  "private": true,
-  "version": "0.0.0",
+  "description": "A98DB973KWL8 component library",
+  "version": "0.0.1",
   "type": "module",
+  "main": "dist/a98db973kwl8.js",
+  "files": [
+    "dist/a98db973kwl8.js",
+    "package.json"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
