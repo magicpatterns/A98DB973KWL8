@@ -1,0 +1,243 @@
+:root {
+  /* Primitives */
+  --localize-color-aqua-green-10: #e8f4f4;
+  --localize-color-aqua-green-20: #d1e8e8;
+  --localize-color-aqua-green-40: #a3d1d1;
+  --localize-color-aqua-green-60: #75baba;
+  --localize-color-aqua-green-80: #47a3a3;
+  --localize-color-aqua-green-100: #198c8c;
+  --localize-color-aqua-green-120: #057878;
+  --localize-color-aqua-green-default: #057878;
+  --localize-color-blue-10: #eaf2fd;
+  --localize-color-blue-20: #d5e6fb;
+  --localize-color-blue-40: #acccf8;
+  --localize-color-blue-60: #82b3f4;
+  --localize-color-blue-80: #5999f1;
+  --localize-color-blue-100: #2f80ed;
+  --localize-color-blue-120: #1b6cd9;
+  --localize-color-blue-default: #1b6cd9;
+  --localize-color-purple-10: #f5eefc;
+  --localize-color-purple-20: #ebdcf9;
+  --localize-color-purple-40: #d7b9f3;
+  --localize-color-purple-60: #c397ec;
+  --localize-color-purple-80: #af74e6;
+  --localize-color-purple-100: #9b51e0;
+  --localize-color-purple-120: #873dcc;
+  --localize-color-purple-default: #873dcc;
+  --localize-color-orange-10: #fef5ed;
+  --localize-color-orange-20: #fbe0c9;
+  --localize-color-orange-40: #fad6b7;
+  --localize-color-orange-60: #f7c292;
+  --localize-color-orange-80: #f5ad6e;
+  --localize-color-orange-100: #f2994a;
+  --localize-color-orange-120: #de8536;
+  --localize-color-orange-default: #de8536;
+  --localize-color-netural-10: #e8eaed;
+  --localize-color-netural-20: #d1d5db;
+  --localize-color-netural-40: #a3abb6;
+  --localize-color-netural-60: #768192;
+  --localize-color-netural-80: #48576d;
+  --localize-color-netural-100: #1a2d49;
+  --localize-color-netural-120: #15243a;
+  --localize-color-netural-default: #1a2d49;
+  --localize-color-light-blue-10: #f6fbfe;
+  --localize-color-light-blue-20: #ecf8fc;
+  --localize-color-light-blue-40: #daf1fa;
+  --localize-color-light-blue-60: #c7e9f7;
+  --localize-color-light-blue-80: #b5e2f5;
+  --localize-color-light-blue-100: #a2dbf2;
+  --localize-color-light-blue-120: #82afc2;
+  --localize-color-light-blue-default: #82afc2;
+  --localize-color-yellow-10: #fefaed;
+  --localize-color-yellow-20: #fcf4db;
+  --localize-color-yellow-40: #fae9b7;
+  --localize-color-yellow-60: #f7df94;
+  --localize-color-yellow-80: #f5d470;
+  --localize-color-yellow-100: #f2c94c;
+  --localize-color-yellow-120: #c2a13d;
+  --localize-color-yellow-default: #c2a13d;
+  --localize-color-red-10: #fdeeee;
+  --localize-color-red-20: #fbdddd;
+  --localize-color-red-40: #f7bcbc;
+  --localize-color-red-60: #f39a9a;
+  --localize-color-red-80: #ef7979;
+  --localize-color-red-100: #eb5757;
+  --localize-color-red-120: #bc4646;
+  --localize-color-red-default: #bc4646;
+  --localize-color-green-10: #e9f5ee;
+  --localize-color-green-20: #d3eadd;
+  --localize-color-green-40: #a6d5ba;
+  --localize-color-green-60: #7ac098;
+  --localize-color-green-80: #4dab75;
+  --localize-color-green-100: #219653;
+  --localize-color-green-120: #0d823f;
+  --localize-color-green-default: #7ac098;
+  --localize-color-big-stone-10: #d6dce6;
+  --localize-color-big-stone-80: #32435c;
+  --localize-color-big-stone-120: #1a2d49;
+  --localize-color-big-stone-default: #1a2d49;
+  --localize-color-boston-blue-10: #ebf5f8;
+  --localize-color-boston-blue-20: #d7eaf2;
+  --localize-color-boston-blue-40: #b0d5e5;
+  --localize-color-boston-blue-60: #88c1d7;
+  --localize-color-boston-blue-80: #61acca;
+  --localize-color-boston-blue-100: #3997bd;
+  --localize-color-boston-blue-120: #2e7997;
+  --localize-color-boston-blue-140: #1a6a88;
+  --localize-color-boston-blue-default: #3997bd;
+  --localize-color-gray-0: #ffffff;
+  --localize-color-gray-5: #f9f9f9;
+  --localize-color-gray-10: #f2f2f2;
+  --localize-color-gray-20: #e0e0e0;
+  --localize-color-gray-40: #bdbdbd;
+  --localize-color-gray-60: #828282;
+  --localize-color-gray-80: #4f4f4f;
+  --localize-color-gray-100: #303030;
+  --localize-color-gray-120: #000000;
+  --localize-color-gray-default: #828282;
+
+  /* Default Theme */
+  --localize-color-button-primary-bg-base: var(
+    --localize-color-boston-blue-100
+  );
+  --localize-color-button-primary-bg-hover: var(
+    --localize-color-boston-blue-120
+  );
+  --localize-color-button-primary-bg-active: var(
+    --localize-color-boston-blue-140
+  );
+  --localize-color-button-primary-bg-focus: var(
+    --localize-color-boston-blue-80
+  );
+  --localize-color-button-primary-bg-disabled: var(
+    --localize-color-boston-blue-20
+  );
+  --localize-color-button-primary-text-base: var(--localize-color-gray-0);
+  --localize-color-button-secondary-bg-base: var(--localize-color-gray-0);
+  --localize-color-button-secondary-bg-hover: var(
+    --localize-color-light-blue-20
+  );
+  --localize-color-button-secondary-bg-active: var(
+    --localize-color-light-blue-40
+  );
+  --localize-color-button-secondary-bg-focus: var(
+    --localize-color-light-blue-60
+  );
+  --localize-color-button-secondary-bg-disabled: var(--localize-color-gray-20);
+  --localize-color-button-secondary-text-base: var(
+    --localize-color-boston-blue-100
+  );
+  --localize-color-button-default-bg-base: var(--localize-color-gray-10);
+  --localize-color-button-default-bg-hover: var(--localize-color-gray-20);
+  --localize-color-button-default-bg-active: var(--localize-color-gray-60);
+  --localize-color-button-default-bg-focus: var(--localize-color-gray-80);
+  --localize-color-button-default-bg-disabled: var(--localize-color-gray-10);
+  --localize-color-button-default-text-base: black;
+  --localize-color-button-text-text-base: var(--localize-color-boston-blue-100);
+  --localize-color-button-text-text-hover: var(
+    --localize-color-boston-blue-120
+  );
+  --localize-color-button-text-text-active: var(
+    --localize-color-boston-blue-140
+  );
+  --localize-color-button-text-text-focus: var(--localize-color-boston-blue-80);
+  --localize-color-button-text-text-disabled: var(
+    --localize-color-boston-blue-20
+  );
+  --localize-color-button-success-bg-base: var(--localize-color-green-80);
+  --localize-color-button-success-bg-hover: var(--localize-color-green-100);
+  --localize-color-button-success-bg-active: var(--localize-color-green-120);
+  --localize-color-button-success-bg-disabled: var(--localize-color-green-20);
+  --localize-color-button-success-text-base: #ffffff;
+  --localize-color-button-warning-bg-base: var(--localize-color-red-80);
+  --localize-color-button-warning-bg-hover: var(--localize-color-red-100);
+  --localize-color-button-warning-bg-active: var(--localize-color-red-120);
+  --localize-color-button-warning-bg-focus: var(--localize-color-red-20);
+  --localize-color-button-warning-text-base: #ffffff;
+  --localize-color-error: var(--localize-color-red-100);
+  --localize-color-success: var(--localize-color-green-100);
+  --localize-color-input-border-base: var(--localize-color-gray-20);
+  --localize-color-input-border-hover: var(--localize-color-gray-40);
+  --localize-color-input-border-focus: var(--localize-color-boston-blue-100);
+  --localize-color-input-bg-base: #ffffff;
+  --localize-color-input-bg-hover: var(--localize-color-gray-10);
+  --localize-color-input-bg-disabled: var(--localize-color-gray-20);
+  --localize-color-input-bg-icon: var(--localize-color-gray-10);
+  --localize-color-input-icon-primary: var(--localize-color-gray-20);
+  --localize-color-input-icon-secondary: #c63737;
+  --localize-color-light: #ffffff;
+  --localize-color-dark: #000000;
+}
+
+html[data-theme="light-theme"] {
+  --localize-color-button-primary-bg-base: var(
+    --localize-color-boston-blue-100
+  );
+  --localize-color-button-primary-bg-hover: var(
+    --localize-color-boston-blue-120
+  );
+  --localize-color-button-primary-bg-active: var(
+    --localize-color-boston-blue-140
+  );
+  --localize-color-button-primary-bg-focus: var(
+    --localize-color-boston-blue-80
+  );
+  --localize-color-button-primary-bg-disabled: var(
+    --localize-color-boston-blue-20
+  );
+  --localize-color-button-primary-text-base: var(--localize-color-gray-0);
+  --localize-color-button-secondary-bg-base: var(--localize-color-gray-0);
+  --localize-color-button-secondary-bg-hover: var(
+    --localize-color-light-blue-20
+  );
+  --localize-color-button-secondary-bg-active: var(
+    --localize-color-light-blue-40
+  );
+  --localize-color-button-secondary-bg-focus: var(
+    --localize-color-light-blue-60
+  );
+  --localize-color-button-secondary-bg-disabled: var(--localize-color-gray-20);
+  --localize-color-button-secondary-text-base: var(
+    --localize-color-boston-blue-100
+  );
+  --localize-color-button-default-bg-base: var(--localize-color-gray-10);
+  --localize-color-button-default-bg-hover: var(--localize-color-gray-20);
+  --localize-color-button-default-bg-active: var(--localize-color-gray-60);
+  --localize-color-button-default-bg-focus: var(--localize-color-gray-80);
+  --localize-color-button-default-bg-disabled: var(--localize-color-gray-10);
+  --localize-color-button-default-text-base: black;
+  --localize-color-button-text-text-base: var(--localize-color-boston-blue-100);
+  --localize-color-button-text-text-hover: var(
+    --localize-color-boston-blue-120
+  );
+  --localize-color-button-text-text-active: var(
+    --localize-color-boston-blue-140
+  );
+  --localize-color-button-text-text-focus: var(--localize-color-boston-blue-80);
+  --localize-color-button-text-text-disabled: var(
+    --localize-color-boston-blue-20
+  );
+  --localize-color-button-success-bg-base: var(--localize-color-green-80);
+  --localize-color-button-success-bg-hover: var(--localize-color-green-100);
+  --localize-color-button-success-bg-active: var(--localize-color-green-120);
+  --localize-color-button-success-bg-disabled: var(--localize-color-green-20);
+  --localize-color-button-success-text-base: #ffffff;
+  --localize-color-button-warning-bg-base: var(--localize-color-red-80);
+  --localize-color-button-warning-bg-hover: var(--localize-color-red-100);
+  --localize-color-button-warning-bg-active: var(--localize-color-red-120);
+  --localize-color-button-warning-bg-focus: var(--localize-color-red-20);
+  --localize-color-button-warning-text-base: #ffffff;
+  --localize-color-error: var(--localize-color-red-100);
+  --localize-color-success: var(--localize-color-green-100);
+  --localize-color-input-border-base: var(--localize-color-gray-20);
+  --localize-color-input-border-hover: var(--localize-color-gray-40);
+  --localize-color-input-border-focus: var(--localize-color-boston-blue-100);
+  --localize-color-input-bg-base: #ffffff;
+  --localize-color-input-bg-hover: var(--localize-color-gray-10);
+  --localize-color-input-bg-disabled: var(--localize-color-gray-20);
+  --localize-color-input-bg-icon: var(--localize-color-gray-10);
+  --localize-color-input-icon-primary: var(--localize-color-gray-20);
+  --localize-color-input-icon-secondary: #c63737;
+  --localize-color-light: #ffffff;
+  --localize-color-dark: #000000;
+}
