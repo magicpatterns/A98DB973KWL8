@@ -1,1 +1,127 @@
+.localize-toggle {
+  display: flex;
+  align-items: center;
+}
 
+.localize-toggle-size-sm {
+  --localize-toggle-height: 20px;
+  --localize-toggle-width: 20px;
+}
+
+.localize-toggle-size-md {
+  --localize-toggle-height: 22px;
+  --localize-toggle-width: 22px;
+}
+
+.localize-toggle-size-lg {
+  --localize-toggle-height: 26px;
+  --localize-toggle-width: 26px;
+}
+
+.localize-switch-label {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 12px;
+}
+
+/* The box around the slider */
+.localize-switch {
+  position: relative;
+  display: inline-block;
+  width: calc(
+    var(--localize-toggle-width) + var(--localize-toggle-width) + 8px
+  );
+  height: calc(var(--localize-toggle-height) + 8px);
+  color: #ffffff;
+}
+
+/* Hide default HTML checkbox */
+.localize-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.localize-toggle-slider.localize-toggle-slider-disabled {
+  background-color: var(--localize-color-gray-20) !important;
+}
+
+/* The slider */
+.localize-toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--localize-color-gray-40);
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  border-radius: 34px;
+}
+
+.localize-toggle-slider:hover {
+  background-color: var(--localize-color-gray-60);
+}
+
+.localize-toggle-slider:before {
+  position: absolute;
+  content: "";
+  height: var(--localize-toggle-height);
+  width: var(--localize-toggle-width);
+  left: 4px;
+  bottom: 4px;
+  background-color: #ffffff;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  border-radius: 50%;
+}
+
+input:checked + .localize-toggle-slider {
+  background-color: var(--localize-color-boston-blue-100);
+}
+
+input:checked:hover + .localize-toggle-slider {
+  background-color: var(--localize-color-boston-blue-120);
+}
+
+input:checked + .localize-toggle-slider:before {
+  -webkit-transform: translateX(var(--localize-toggle-width));
+  -ms-transform: translateX(var(--localize-toggle-width));
+  transform: translateX(var(--localize-toggle-width));
+}
+
+.localize-switch-enabled-icon,
+.localize-switch-disabled-icon {
+  color: #ffffff;
+  display: flex;
+  position: absolute;
+
+  width: calc(var(--localize-toggle-width) - 7px);
+  height: calc(var(--localize-toggle-height) - 7px);
+}
+
+.localize-toggle-icon {
+  width: calc(var(--localize-toggle-width) - 7px);
+  height: calc(var(--localize-toggle-height) - 7px);
+}
+
+input:checked ~ .localize-switch-enabled-icon {
+  display: flex;
+  top: 9px;
+  left: calc(var(--localize-toggle-width) / 3 + 1px);
+}
+
+input:checked ~ .localize-switch-disabled-icon {
+  display: none;
+}
+
+input:not(:checked) ~ .localize-switch-disabled-icon {
+  display: flex;
+  top: 9px;
+  right: calc(var(--localize-toggle-width) / 3 + 1px);
+}
+
+input:not(:checked) ~ .localize-switch-enabled-icon {
+  display: none;
+}
