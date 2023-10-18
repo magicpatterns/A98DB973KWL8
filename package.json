@@ -1,12 +1,13 @@
 {
   "name": "a98db973kwl8",
   "description": "A98DB973KWL8 component library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "main": "dist/a98db973kwl8.js",
   "files": [
     "dist/a98db973kwl8.js",
-    "package.json"
+    "package.json",
+    "dist/style.css"
   ],
   "scripts": {
     "dev": "vite",
