@@ -1,0 +1,165 @@
+.localize-chip {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  
+    .localize-chip .localize-chip-right-icon {
+      margin-right: 8px;
+    }
+  
+    .localize-chip .localize-chip-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-chip {
+}
+
+.localize-chip {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  
+    .localize-chip .localize-chip-right-icon {
+      margin-right: 8px;
+    }
+  
+    .localize-chip .localize-chip-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-chip-variant-gray {
+    color: var(--localize-color-gray-120);
+    background-color: var(--localize-color-gray-10);
+}
+
+.localize-chip {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  
+    .localize-chip .localize-chip-right-icon {
+      margin-right: 8px;
+    }
+  
+    .localize-chip .localize-chip-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-chip-variant-blue {
+    color: var(--localize-color-boston-blue-120);
+    background-color: var(--localize-color-boston-blue-10);
+}
+
+.localize-chip {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  
+    .localize-chip .localize-chip-right-icon {
+      margin-right: 8px;
+    }
+  
+    .localize-chip .localize-chip-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-chip-variant-green {
+    color: var(--localize-color-green-120);
+    background-color: var(--localize-color-green-10);
+}
+
+.localize-chip {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  
+    .localize-chip .localize-chip-right-icon {
+      margin-right: 8px;
+    }
+  
+    .localize-chip .localize-chip-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-chip-variant-purple {
+    color: var(--localize-color-purple-120);
+    background-color: var(--localize-color-purple-10);
+}
+
+.localize-chip {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  
+    .localize-chip .localize-chip-right-icon {
+      margin-right: 8px;
+    }
+  
+    .localize-chip .localize-chip-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-chip-variant-orange {
+    color: var(--localize-color-orange-120);
+    background-color: var(--localize-color-orange-10);
+}
+
+.localize-chip {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  
+    .localize-chip .localize-chip-right-icon {
+      margin-right: 8px;
+    }
+  
+    .localize-chip .localize-chip-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-chip-variant-red {
+    color: var(--localize-color-red-120);
+    background-color: var(--localize-color-red-10);
+}
+
+.localize-chip {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+  }
+  
+    .localize-chip .localize-chip-right-icon {
+      margin-right: 8px;
+    }
+  
+    .localize-chip .localize-chip-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-chip-variant-yellow {
+    color: var(--localize-color-yellow-120);
+    background-color: var(--localize-color-yellow-10);
+}

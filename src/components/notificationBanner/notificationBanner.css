@@ -1,0 +1,467 @@
+.localize-notificationBanner {
+  padding: 14px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 18px rgba(26, 45, 73, 0.15),
+    0px 0px 1px rgba(26, 45, 73, 0.3);
+}
+
+  .localize-notificationBanner .localize-notificationBanner-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .localize-notificationBanner .localize-notificationBanner-close-button {
+    padding: 4px;
+    border-radius: 4px;
+    width: 32px;
+    margin-left: 8px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 60px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 10px;
+  }
+
+
+.localize-notificationBanner .localize-notificationBanner-icon {
+  }
+
+
+.localize-notificationBanner .localize-notificationBanner-close-button {
+  }
+
+.localize-notificationBanner {
+  padding: 14px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 18px rgba(26, 45, 73, 0.15),
+    0px 0px 1px rgba(26, 45, 73, 0.3);
+}
+
+  .localize-notificationBanner .localize-notificationBanner-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .localize-notificationBanner .localize-notificationBanner-close-button {
+    padding: 4px;
+    border-radius: 4px;
+    width: 32px;
+    margin-left: 8px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 60px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 10px;
+  }
+
+
+.localize-notificationBanner-variant-primary {
+  background-color: var(--localize-color-boston-blue-100);
+  color: #ffffff;
+}
+
+
+.localize-notificationBanner-variant-primary .localize-notificationBanner-icon {
+    color: #ffffff;
+  }
+
+
+.localize-notificationBanner-variant-primary .localize-notificationBanner-close-button {
+    background-color: var(--localize-color-boston-blue-120);
+  }
+
+.localize-notificationBanner {
+  padding: 14px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 18px rgba(26, 45, 73, 0.15),
+    0px 0px 1px rgba(26, 45, 73, 0.3);
+}
+
+  .localize-notificationBanner .localize-notificationBanner-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .localize-notificationBanner .localize-notificationBanner-close-button {
+    padding: 4px;
+    border-radius: 4px;
+    width: 32px;
+    margin-left: 8px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 60px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 10px;
+  }
+
+
+.localize-notificationBanner-variant-secondary {
+  background-color: var(--localize-color-gray-0);
+  color: var(--localize-color-gray-100);
+  border-width: 1px;
+  border-color: var(--localize-color-gray-20);
+}
+
+
+.localize-notificationBanner-variant-secondary .localize-notificationBanner-icon {
+    color: var(--localize-color-gray-100);
+  }
+
+
+.localize-notificationBanner-variant-secondary .localize-notificationBanner-close-button {
+    background-color: var(--localize-color-gray-5);
+  }
+
+.localize-notificationBanner {
+  padding: 14px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 18px rgba(26, 45, 73, 0.15),
+    0px 0px 1px rgba(26, 45, 73, 0.3);
+}
+
+  .localize-notificationBanner .localize-notificationBanner-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .localize-notificationBanner .localize-notificationBanner-close-button {
+    padding: 4px;
+    border-radius: 4px;
+    width: 32px;
+    margin-left: 8px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 60px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 10px;
+  }
+
+
+.localize-notificationBanner-variant-info {
+  background-color: #EBF5F8;
+  color: black;
+  border-width: 1px;
+  border-color: #E0E0E0;
+}
+
+
+.localize-notificationBanner-variant-info .localize-notificationBanner-icon {
+    color: var(--localize-color-boston-blue-100);
+  }
+
+
+.localize-notificationBanner-variant-info .localize-notificationBanner-close-button {
+    background-color: var(--localize-color-boston-blue-20);
+  }
+
+.localize-notificationBanner {
+  padding: 14px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 18px rgba(26, 45, 73, 0.15),
+    0px 0px 1px rgba(26, 45, 73, 0.3);
+}
+
+  .localize-notificationBanner .localize-notificationBanner-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .localize-notificationBanner .localize-notificationBanner-close-button {
+    padding: 4px;
+    border-radius: 4px;
+    width: 32px;
+    margin-left: 8px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 60px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 10px;
+  }
+
+
+.localize-notificationBanner-variant-success {
+  background-color: var(--localize-color-green-100);
+  color: #ffffff;
+}
+
+
+.localize-notificationBanner-variant-success .localize-notificationBanner-icon {
+  }
+
+
+.localize-notificationBanner-variant-success .localize-notificationBanner-close-button {
+    background-color: var(--localize-color-green-120);
+  }
+
+.localize-notificationBanner {
+  padding: 14px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 18px rgba(26, 45, 73, 0.15),
+    0px 0px 1px rgba(26, 45, 73, 0.3);
+}
+
+  .localize-notificationBanner .localize-notificationBanner-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .localize-notificationBanner .localize-notificationBanner-close-button {
+    padding: 4px;
+    border-radius: 4px;
+    width: 32px;
+    margin-left: 8px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-sm .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-lg .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 60px;
+  }
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl {
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.localize-notificationBanner-content.localize-notificationBanner-size-xl .localize-notificationBanner-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-right: 10px;
+  }
+
+
+.localize-notificationBanner-variant-error {
+  background-color: var(--localize-color-red-100);
+  color: #ffffff;
+}
+
+
+.localize-notificationBanner-variant-error .localize-notificationBanner-icon {
+  }
+
+
+.localize-notificationBanner-variant-error .localize-notificationBanner-close-button {
+    background-color: var(--localize-color-red-120);
+  }

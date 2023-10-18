@@ -1,0 +1,84 @@
+.localize-badge {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 200ms ease-in-out;
+  }
+  
+    .localize-badge .localize-badge-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-badge:hover {
+    }
+
+.localize-badge {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 200ms ease-in-out;
+  }
+  
+    .localize-badge .localize-badge-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-badge-variant-gray {
+    color: var(--localize-color-gray-80);
+    background-color: var(--localize-color-gray-10);
+}
+
+.localize-badge-variant-gray:hover {
+        color: var(--localize-color-gray-100);
+        background-color: var(--localize-color-gray-20);
+    }
+
+.localize-badge {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 200ms ease-in-out;
+  }
+  
+    .localize-badge .localize-badge-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-badge-variant-blue {
+    color: var(--localize-color-boston-blue-100);
+    background-color: var(--localize-color-boston-blue-10);
+}
+
+.localize-badge-variant-blue:hover {
+        color: var(--localize-color-boston-blue-120);
+        background-color: var(--localize-color-boston-blue-20);
+    }
+
+.localize-badge {
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 200ms ease-in-out;
+  }
+  
+    .localize-badge .localize-badge-left-icon {
+      margin-left: 8px;
+    }
+
+.localize-badge-variant-green {
+    color: var(--localize-color-green-120);
+    background-color: var(--localize-color-green-10);
+}
+
+.localize-badge-variant-green:hover {
+        color: var(--localize-color-green-100);
+        background-color: var(--localize-color-green-20);
+    }

@@ -1,0 +1,135 @@
+
+.localize-checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .localize-checkbox-size-lg {
+    --localize-checkbox-size: 16px;
+    --localize-checkbox-label-font-size: 14px;
+  }
+
+  .localize-checkbox-size-md {
+    --localize-checkbox-size: 14px;
+    --localize-checkbox-label-font-size: 12px;
+  }
+
+  .localize-checkbox-size-sm {
+    --localize-checkbox-size: 12px;
+    --localize-checkbox-label-font-size: 11px;
+  }
+  
+  .localize-checkbox-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .localize-checkbox-label .localize-checkbox-input {
+      position: absolute;
+      height: var(--localize-checkbox-size);
+      width: var(--localize-checkbox-size);
+      opacity: 0;
+      cursor: pointer;
+    }
+  
+  .localize-checkbox-label .localize-checkbox {
+      flex-shrink: 0;
+      width: var(--localize-checkbox-size);
+      height: var(--localize-checkbox-size);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 2px;
+      border-width: 2px;
+      border-color: var(--localize-color-gray-60);
+    }
+  
+  .localize-checkbox-label .localize-checkbox .localize-checkmark {
+        display: none;
+        height: calc(var(--localize-checkbox-size) * 0.6);
+        width: calc(var(--localize-checkbox-size) * 0.6);
+      }
+  
+  .localize-checkbox-label .localize-checkbox-input:not(:checked):hover + .localize-checkbox {
+      background-color: var(--localize-color-gray-20);
+    }
+  
+  .localize-checkbox-label .localize-checkbox-input:not(:checked):active + .localize-checkbox {
+      background-color: var(--localize-color-gray-40);
+      border-color: var(--localize-color-boston-blue-100);
+    }
+  
+  .localize-checkbox-label .localize-checkbox-input:not(:checked):disabled + .localize-checkbox {
+      background-color: var(--localize-color-gray-10);
+      border-color: var(--localize-color-gray-20);
+    }
+  
+  .localize-checkbox-label .localize-checkbox-input:checked + .localize-checkbox {
+      background-color: var(--localize-color-boston-blue-100);
+      border-color: var(--localize-color-boston-blue-100);
+    }
+  
+  .localize-checkbox-label .localize-checkbox-input:checked + .localize-checkbox .localize-checkmark {
+        color: var(--localize-color-gray-0);
+      }
+  
+  .localize-checkbox-label .localize-checkbox-input:checked + .localize-checkbox .localize-checkmark {
+        display: initial;
+      }
+  
+  .localize-checkbox-label .localize-checkbox-input:checked:hover + .localize-checkbox {
+      background-color: var(--localize-color-boston-blue-120);
+      border-color: var(--localize-color-boston-blue-120);
+    }
+  
+  .localize-checkbox-label .localize-checkbox-input:checked:active + .localize-checkbox {
+      background-color: var(--localize-color-boston-blue-40);
+      border-color: var(--localize-color-boston-blue-100);
+    }
+  
+  .localize-checkbox-label .localize-checkbox-input:checked:active + .localize-checkbox .localize-checkmark {
+        color: var(--localize-color-boston-blue-120);
+      }
+  
+  .localize-checkbox-label .localize-checkbox-input:checked:disabled + .localize-checkbox {
+      background-color: var(--localize-color-gray-10);
+      border-color: var(--localize-color-gray-20);
+    }
+  
+  .localize-checkbox-label .localize-checkbox-input:checked:disabled + .localize-checkbox .localize-checkmark {
+        color: var(--localize-color-gray-40);
+      }
+  
+  .localize-checkbox-label .localize-checkbox-label-text {
+      margin-left: 8px;
+      color: var(--localize-color-gray-120);
+      font-size: var(--localize-checkbox-label-font-size);
+    }
+  
+  .localize-checkbox-label .localize-checkbox-input:disabled ~ .localize-checkbox-label-text {
+      color: var(--localize-color-gray-40);
+    }
+  
+  .localize-checkbox-label .localize-checkbox-input:checked ~ .localize-checkbox-label-text {
+      color: var(--localize-color-boston-blue-100);
+    }
+  
+  .localize-checkbox-label .localize-checkbox-input:checked:hover ~ .localize-checkbox-label-text {
+      color: var(--localize-color-boston-blue-120);
+    }
+  
+  .localize-checkbox-icon {
+    margin-left: 8px;
+    width: var(--localize-checkbox-size);
+    height: var(--localize-checkbox-size);
+  }
+  
+  .localize-checkbox-icon-primary {
+    color: var(--localize-color-boston-blue-100);
+  }
+  
+  .localize-checkbox-icon-secondary {
+    color: var(--localize-color-gray-60);
+  }

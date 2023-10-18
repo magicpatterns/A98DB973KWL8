@@ -1,0 +1,61 @@
+
+.localize-datePicker-button {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-width: 1px;
+    border-color: var(--localize-color-gray-10);
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+    .localize-datePicker-button .localize-datePicker-button-icon {
+        margin-right: 8px;
+    }
+
+.localize-datePicker-button:hover {
+}
+
+.localize-datePicker-content {
+    display: flex;
+    background-color: white;
+}
+
+.localize-datePicker-content .localize-datePicker-content-presets {
+        width: 150px;
+        border-right: 1px solid var(--localize-color-gray-10);
+    }
+
+.localize-datePicker-content .localize-datePicker-content-calendar {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        display: flex;
+        align-items: center;
+    }
+
+.localize-datePicker-range-button {
+    width: 100%;
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: transparent;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.localize-datePicker-range-button:hover {
+    background-color: var(--localize-color-gray-10);
+    color: #000000;
+}
+
+.localize-datePicker-range-button-selected {
+    background-color: var(--localize-color-boston-blue-100) !important;
+    color: #ffffff !important;
+}

@@ -1,0 +1,257 @@
+
+.localize-input {
+    position: relative;
+  }
+  
+    .localize-input .localize-input-icon-container {
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 2px;
+      left: 2px;
+      position: absolute;
+    }
+  
+    .localize-input .localize-input-icon-container .localize-input-icon {
+        width: 16px;
+        height: 16px;
+      }
+  
+    .localize-input .localize-input-icon-container ~ .localize-input-input {
+      padding-left: 52px;
+    }
+  
+    .localize-input .localize-input-input {
+      padding: 12px;
+      transition: all 200ms ease-in-out;
+      font-size: 14px;
+      height: 44px;
+      width: 245px;
+      outline: none;
+      box-shadow: none;
+    }
+  
+    .localize-input .localize-input-input {
+    }
+  
+    .localize-input .localize-input-input:hover:not(:disabled) {
+    }
+  
+    .localize-input .localize-input-input:disabled {
+    }
+  
+    .localize-input .localize-input-input:focus:not(:disabled) {
+    }
+  
+    .localize-input .localize-input-error {
+    }
+  
+    .localize-input .localize-input-action-icon {
+      transition: all 100ms ease-in-out;
+      cursor: pointer;
+      position: absolute;
+      top: 14px;
+      right: 12px;
+      width: 16px;
+      height: 16px;
+    }
+  
+    .localize-input .localize-input-action-icon-clickable:hover {
+      }
+  
+    .localize-input .localize-input-error-icon {
+      cursor: pointer;
+      position: absolute;
+      top: 14px;
+      right: 12px;
+      width: 16px;
+      height: 16px;
+    }
+  
+    .localize-input .localize-input-action-icon-disabled {
+      cursor: default;
+    }
+
+
+.localize-input-variant-primary {
+    position: relative;
+  }
+  
+    .localize-input-variant-primary .localize-input-icon-container {
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 2px;
+      left: 2px;
+      position: absolute;
+
+      border-right-color: var(--localize-color-input-border-base);
+    }
+  
+    .localize-input-variant-primary .localize-input-icon-container .localize-input-icon {
+        width: 16px;
+        height: 16px;
+        color: var(--localize-color-input-icon-primary);
+      }
+  
+    .localize-input-variant-primary .localize-input-icon-container ~ .localize-input-input {
+      padding-left: 52px;
+    }
+  
+    .localize-input-variant-primary .localize-input-input {
+      border-width: 2px;
+      border-color: var(--localize-color-input-border-base);
+      border-radius: 4px;
+      padding: 12px;
+      transition: all 200ms ease-in-out;
+      font-size: 14px;
+      height: 44px;
+      width: 245px;
+      outline: none;
+      box-shadow: none;
+    }
+  
+    .localize-input-variant-primary .localize-input-input {
+      background-color: var(--localize-color-input-bg-base);
+    }
+  
+    .localize-input-variant-primary .localize-input-input:hover:not(:disabled) {
+      background-color: var(--localize-color-input-bg-hover);
+    }
+  
+    .localize-input-variant-primary .localize-input-input:disabled {
+      background-color: var(--localize-color-input-bg-disabled);
+    }
+  
+    .localize-input-variant-primary .localize-input-input:focus:not(:disabled) {
+      border-color: var(--localize-color-boston-blue-100);
+    }
+  
+    .localize-input-variant-primary .localize-input-error {
+      border-color: var(--localize-color-error) !important;
+    }
+  
+    .localize-input-variant-primary .localize-input-action-icon {
+      transition: all 100ms ease-in-out;
+      color: var(--localize-color-input-icon-primary);
+      cursor: pointer;
+      position: absolute;
+      top: 14px;
+      right: 12px;
+      width: 16px;
+      height: 16px;
+    }
+  
+    .localize-input-variant-primary .localize-input-action-icon-clickable:hover {
+        color: var(--localize-color-gray-60);
+      }
+  
+    .localize-input-variant-primary .localize-input-error-icon {
+      color: var(--localize-color-error);
+      cursor: pointer;
+      position: absolute;
+      top: 14px;
+      right: 12px;
+      width: 16px;
+      height: 16px;
+    }
+  
+    .localize-input-variant-primary .localize-input-action-icon-disabled {
+      cursor: default;
+    }
+
+
+.localize-input-variant-secondary {
+    position: relative;
+  }
+  
+    .localize-input-variant-secondary .localize-input-icon-container {
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 2px;
+      left: 2px;
+      position: absolute;
+
+      border-right-width: 2px;
+      border-right-color: var(--localize-color-input-border-base);
+      background-color: var(--localize-color-input-bg-icon);
+    }
+  
+    .localize-input-variant-secondary .localize-input-icon-container .localize-input-icon {
+        width: 16px;
+        height: 16px;
+        color: var(--localize-color-gray-60);
+      }
+  
+    .localize-input-variant-secondary .localize-input-icon-container ~ .localize-input-input {
+      padding-left: 52px;
+    }
+  
+    .localize-input-variant-secondary .localize-input-input {
+      border-width: 2px;
+      border-color: var(--localize-color-input-border-base);
+      border-radius: 4px;
+      padding: 12px;
+      transition: all 200ms ease-in-out;
+      font-size: 14px;
+      height: 44px;
+      width: 245px;
+      outline: none;
+      box-shadow: none;
+    }
+  
+    .localize-input-variant-secondary .localize-input-input {
+      background-color: var(--localize-color-input-bg-base);
+    }
+  
+    .localize-input-variant-secondary .localize-input-input:hover:not(:disabled) {
+      background-color: var(--localize-color-input-bg-hover);
+    }
+  
+    .localize-input-variant-secondary .localize-input-input:disabled {
+      background-color: var(--localize-color-input-bg-disabled);
+    }
+  
+    .localize-input-variant-secondary .localize-input-input:focus:not(:disabled) {
+      border-color: var(--localize-color-boston-blue-100);
+    }
+  
+    .localize-input-variant-secondary .localize-input-error {
+      border-color: var(--localize-color-error) !important;
+    }
+  
+    .localize-input-variant-secondary .localize-input-action-icon {
+      transition: all 100ms ease-in-out;
+      color: var(--localize-color-input-icon-primary);
+      cursor: pointer;
+      position: absolute;
+      top: 14px;
+      right: 12px;
+      width: 16px;
+      height: 16px;
+    }
+  
+    .localize-input-variant-secondary .localize-input-action-icon-clickable:hover {
+        color: var(--localize-color-gray-60);
+      }
+  
+    .localize-input-variant-secondary .localize-input-error-icon {
+      color: var(--localize-color-error);
+      cursor: pointer;
+      position: absolute;
+      top: 14px;
+      right: 12px;
+      width: 16px;
+      height: 16px;
+    }
+  
+    .localize-input-variant-secondary .localize-input-action-icon-disabled {
+      cursor: default;
+    }

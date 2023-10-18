@@ -1,0 +1,244 @@
+
+
+.localize-pagination {
+    display: flex;
+    flex-direction: row;
+}
+
+    .localize-pagination .localize-pagination-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        cursor: pointer;
+
+
+    }
+
+    .localize-pagination .localize-pagination-controls-left {
+        border-right-style: solid;
+        border-left-style: none;
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+
+    .localize-pagination .localize-pagination-controls-right {
+        border-right-style: none;
+        border-left-style: solid;
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+
+    .localize-pagination .localize-pagination-control-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .localize-pagination .localize-pagination-controls:hover {
+    }
+
+    .localize-pagination .localize-pagination-controls-disabled {
+        cursor: initial;
+    }
+
+    .localize-pagination .localize-pagination-pages-text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .localize-pagination .localize-pagination-pages-text-container .localize-pagination-pages-text-content {
+        }
+
+    .localize-pagination .localize-pagination-pages-numbers-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .localize-pagination .localize-pagination-pages-numbers-container .localize-pagination-pages-numbers-button {
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            cursor: pointer;
+        }
+
+    .localize-pagination .localize-pagination-pages-numbers-container .localize-pagination-pages-numbers-button-active {
+        }
+
+
+
+.localize-pagination-variant-outline {
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #e0e0e0;
+}
+
+    .localize-pagination-variant-outline .localize-pagination-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-width: 1px;
+        border-color: #e0e0e0;
+        background-color: #F6F6F6;
+        cursor: pointer;
+
+        color: #6D6D6D;
+
+    }
+
+    .localize-pagination-variant-outline .localize-pagination-controls-left {
+        border-right-style: solid;
+        border-left-style: none;
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+
+    .localize-pagination-variant-outline .localize-pagination-controls-right {
+        border-right-style: none;
+        border-left-style: solid;
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+
+    .localize-pagination-variant-outline .localize-pagination-control-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .localize-pagination-variant-outline .localize-pagination-controls:hover {
+        color: #2D2D2D;
+    }
+
+    .localize-pagination-variant-outline .localize-pagination-controls-disabled {
+        cursor: initial;
+        color: #BDBDBD !important;
+    }
+
+    .localize-pagination-variant-outline .localize-pagination-pages-text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .localize-pagination-variant-outline .localize-pagination-pages-text-container .localize-pagination-pages-text-content {
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+    .localize-pagination-variant-outline .localize-pagination-pages-numbers-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .localize-pagination-variant-outline .localize-pagination-pages-numbers-container .localize-pagination-pages-numbers-button {
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+    .localize-pagination-variant-outline .localize-pagination-pages-numbers-container .localize-pagination-pages-numbers-button-active {
+            color: #ffffff;
+            background-color: #BDBDBD;
+        }
+
+
+
+.localize-pagination-variant-ghost {
+    display: flex;
+    flex-direction: row;
+}
+
+    .localize-pagination-variant-ghost .localize-pagination-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        cursor: pointer;
+
+        color: #6D6D6D;
+        font-weight: 500;
+
+    }
+
+    .localize-pagination-variant-ghost .localize-pagination-controls-left {
+        border-right-style: solid;
+        border-left-style: none;
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+
+    .localize-pagination-variant-ghost .localize-pagination-controls-right {
+        border-right-style: none;
+        border-left-style: solid;
+        border-top-style: none;
+        border-bottom-style: none;
+    }
+
+    .localize-pagination-variant-ghost .localize-pagination-control-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .localize-pagination-variant-ghost .localize-pagination-controls:hover {
+        color: #2D2D2D;
+    }
+
+    .localize-pagination-variant-ghost .localize-pagination-controls-disabled {
+        cursor: initial;
+        color: #BDBDBD !important;
+    }
+
+    .localize-pagination-variant-ghost .localize-pagination-pages-text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .localize-pagination-variant-ghost .localize-pagination-pages-text-container .localize-pagination-pages-text-content {
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+    .localize-pagination-variant-ghost .localize-pagination-pages-numbers-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .localize-pagination-variant-ghost .localize-pagination-pages-numbers-container .localize-pagination-pages-numbers-button {
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+    .localize-pagination-variant-ghost .localize-pagination-pages-numbers-container .localize-pagination-pages-numbers-button-active {
+            color: #ffffff;
+            background-color: #BDBDBD;
+        }

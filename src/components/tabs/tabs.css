@@ -1,0 +1,47 @@
+
+.localize-tabs {
+  display: flex;
+  transition: all 200ms ease-in-out;
+}
+
+  .localize-tabs .localize-tab {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-color: transparent;
+  }
+
+  .localize-tabs .localize-tab:hover {
+    border-color: var(--localize-color-boston-blue-60);
+  }
+
+  .localize-tabs .localize-tab-active {
+    font-weight: 600;
+    border-color: var(--localize-color-boston-blue-100) !important;
+  }
+
+.localize-tabs-left {
+  flex-direction: column;
+}
+
+.localize-tabs-left .localize-tab {
+    border-left-width: 4px;
+  }
+
+.localize-tabs-bottom {
+  flex-direction: row;
+}
+
+.localize-tabs-bottom .localize-tab {
+    border-bottom-width: 4px;
+  }
+
+.localize-tabs-sm .localize-tab {
+    padding: 8px 12px;
+  }
+
+.localize-tabs-lg .localize-tab {
+    padding: 16px 24px;
+  }
