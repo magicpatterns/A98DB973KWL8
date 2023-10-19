@@ -9,15 +9,7 @@ const App = () => {
   const handleClick = () => {
     setIsChecked(!isChecked);
   };
-  return (
-    <Card>
-      <CardHeader>Toggle Switch Card</CardHeader>
-      <CardBody>Interactive Toggle Switch</CardBody>
-      <CardFooter>
-        <Button variant="primary" label="dog" />
-      </CardFooter>
-    </Card>
-  );
+  return <Button label="dog" variant="primary" />;
 };
 
 export default App;
