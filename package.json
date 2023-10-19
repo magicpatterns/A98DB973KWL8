@@ -1,7 +1,7 @@
 {
   "name": "a98db973kwl8",
   "description": "A98DB973KWL8 component library",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "main": "dist/a98db973kwl8.js",
   "files": [

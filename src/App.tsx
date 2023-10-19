@@ -1,35 +1,28 @@
-import React from "react";
-import {
-  Accordion,
-  AccordionBody,
-  AccordionContent,
-  AccordionFooter,
-  AccordionHeader,
-} from "./components/Accordion/Accordion";
+import React, { useState } from "react";
+import { Toggle } from "./components/Toggle/Toggle";
+import { Card, CardHeader, CardBody, CardFooter } from "./components/Card/Card";
 import "./components/index.css";
-
-function App() {
+const App = () => {
+  const [isChecked, setIsChecked] = useState(true);
+  const handleClick = () => {
+    setIsChecked(!isChecked);
+  };
   return (
-    <>
-      {" "}
-      <Accordion>
-        <AccordionHeader label="Section One" />
-        <AccordionBody>
-          <AccordionContent>List Item One</AccordionContent>
-          <AccordionContent>List Item Two</AccordionContent>
-          <AccordionFooter label="Show More" onClick={() => {}} />
-        </AccordionBody>
-      </Accordion>
-      <Accordion>
-        <AccordionHeader label="Section Two" />
-        <AccordionBody>
-          <AccordionContent>List Item Three</AccordionContent>
-          <AccordionContent>List Item Four</AccordionContent>
-          <AccordionFooter label="Show More" onClick={() => {}} />
-        </AccordionBody>
-      </Accordion>
-    </>
+    <Card>
+      <CardHeader>Toggle Switch Card</CardHeader>
+      <CardBody>Interactive Toggle Switch</CardBody>
+      <CardFooter>
+        <Toggle
+          size="md"
+          label="Toggle Me"
+          isChecked={isChecked}
+          onChange={handleClick}
+          disabled={false}
+          showIcons={true}
+        />
+      </CardFooter>
+    </Card>
   );
-}
+};
 
 export default App;
